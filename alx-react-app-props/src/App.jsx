@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 import UserProfile from './components/UserProfile';
 import React from 'react';
 import ProfilePage from './ProfilePage';
-import UserContext from './UserContext'; // Import UserContext
+import UserContext from './components/UserContext'; // Import UserContext
 
 function App() {
   const [count, setCount] = useState(0)
